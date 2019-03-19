@@ -110,7 +110,7 @@ export default class HelloWorld {
 
         // When clicked, do a 360 sideways.
         buttonBehavior.onClick('pressed', (userId: string) => {
-            this.cube.enableAnimation('DoAFlip');
+            this.Car 04.enableAnimation('DoAFlip');
         });
     }
 
