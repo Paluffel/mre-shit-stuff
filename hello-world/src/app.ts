@@ -68,7 +68,7 @@ export default class HelloWorld {
             const button = MRESDK.Actor.CreatePrimitive(this.context, {
                 definition: {
                     shape: MRESDK.PrimitiveShape.Box,
-                    dimensions: { x: 1, y: 1, z: 1 }
+                    dimensions: { x: 0, y: 0, z: 0 }
                 },
                 addCollider: false,
                 actor: {
