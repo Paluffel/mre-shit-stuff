@@ -45,7 +45,7 @@ export default class HelloWorld {
                     contents: "Click on me ill change ",
                     anchor: TextAnchorLocation.MiddleCenter,
                     color: { r: 30 / 255, g: 206 / 255, b: 213 / 255 },
-                    height: 0.3
+                    height: 1.2
                 }
             }
         });
@@ -59,7 +59,7 @@ export default class HelloWorld {
                 transform: {
                     position: { x: 0, y: 0.0, z: 0 },
                     rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
-                    scale: { x: 0.2, y: 0.2, z: 0.2 }
+                    scale: { x: 0.9, y: 0.9, z: 0.9 }
                 }
             }
         }));
@@ -78,7 +78,7 @@ export default class HelloWorld {
                             transform: {
                                 position: { x: 0, y: -0.1, z: 0 },
                                 rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
-                                scale: { x: 0.3, y: 0.3, z: 0.3 }
+                                scale: { x: 1, y: 1, z: 1 }
                             }
                         }
                     }));
