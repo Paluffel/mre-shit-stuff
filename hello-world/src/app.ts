@@ -76,7 +76,7 @@ export default class HelloWorld {
                         actor: {
                             name: 'Car 04',
                             transform: {
-                                position: { x: 0, y: -0.1, z: 0 },
+                                position: { x: 0, y: 0, z: 0 },
                                 rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
                                 scale: { x: 0.6, y: 0.6, z: 0.6 }
                             }
