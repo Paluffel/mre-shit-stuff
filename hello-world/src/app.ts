@@ -39,13 +39,13 @@ export default class HelloWorld {
             actor: {
                 name: 'Text',
                 transform: {
-                    position: { x: 0, y: 0.5, z: 0 }
+                    position: { x: 0, y: 1.2, z: 0 }
                 },
                 text: {
                     contents: "Click on me ill change ",
                     anchor: TextAnchorLocation.MiddleCenter,
                     color: { r: 30 / 255, g: 206 / 255, b: 213 / 255 },
-                    height: 1.2
+                    height: 0.3
                 }
             }
         });
