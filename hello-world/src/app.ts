@@ -72,9 +72,9 @@ export default class HelloWorld {
         // AltspaceVR resource IDs from https://account.altvr.com/kits/
         const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
         libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
-            resourceId: "artifact:1137810535799063443",
+            resourceId: "artifact: 1162044424222409447",
             actor: {
-                name: 'Camara New',
+                name: 'Astroid Field',
                 transform: {
                     position: { x: 0, y: 0.0, z: 0 },
                     rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
