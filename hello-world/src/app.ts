@@ -39,7 +39,7 @@ export default class HelloWorld {
             actor: {
                 name: 'Text',
                 transform: {
-                    position: { x: 0, y: 1.2, z: 0 }
+                    position: { x: 0, y: 1.5, z: 0 }
                 },
                 text: {
                     contents: "Click on me ill change ",
@@ -59,7 +59,7 @@ export default class HelloWorld {
                 transform: {
                     position: { x: 0, y: 0.0, z: 0 },
                     rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
-                    scale: { x: 0.8, y: 0.8, z: 0.8 }
+                    scale: { x: 0.6, y: 0.6, z: 0.6 }
                 }
             }
         }));
@@ -78,7 +78,7 @@ export default class HelloWorld {
                             transform: {
                                 position: { x: 0, y: -0.1, z: 0 },
                                 rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
-                                scale: { x: 1, y: 1, z: 1 }
+                                scale: { x: 0.9, y: 0.9, z: 0.9 }
                             }
                         }
                     }));
