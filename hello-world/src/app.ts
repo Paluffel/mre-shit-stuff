@@ -72,7 +72,7 @@ export default class HelloWorld {
                 // Trigger the grow/shrink animations on hover.
                 buttonBehavior.onClick('pressed', (userId: string) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                     libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 1168936243694666215",
+                        resourceId: "artifact:1168936243694666215",
                         actor: {
                             name: 'Whitefaeroseredtoo 00',
                             transform: {
