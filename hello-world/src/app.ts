@@ -53,9 +53,9 @@ export default class HelloWorld {
         // AltspaceVR resource IDs from https://account.altvr.com/kits/
         const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
         libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
-            resourceId: "artifact: 1167550200118510014",
+            resourceId: "artifact: 1168936249180815848",
             actor: {
-                name: 'Faesroseswhiteandred',
+                name: 'Whitefaeroseredtoo 01',
                 transform: {
                     position: { x: 0, y: 0.0, z: 0 },
                     rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
@@ -72,9 +72,9 @@ export default class HelloWorld {
                 // Trigger the grow/shrink animations on hover.
                 buttonBehavior.onClick('pressed', (userId: string) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                     libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 1167552066583789977",
+                        resourceId: "artifact: 1168936243694666215",
                         actor: {
-                            name: '765846+54+Faerose',
+                            name: 'Whitefaeroseredtoo 00',
                             transform: {
                                 position: { x: 0, y: 0, z: 0 },
                                 rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
