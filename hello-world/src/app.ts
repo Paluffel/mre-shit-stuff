@@ -78,7 +78,7 @@ export default class HelloWorld {
                             transform: {
                                 position: { x: 0, y: 0, z: 0 },
                                 rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
-                                scale: { x: 0.41, y: 0.41, z: 0.41 }
+                                scale: { x: 0.40001, y: 0.40001, z: 0.40001 }
                             }
                         }
                     }));
